@@ -59,7 +59,7 @@ video.addEventListener("play", () => {
 
         //Drawing additional details and features
         //Both these lines of code can add additional elements to the face, can cause it to lag though
-        //faceapi.draw.drawFaceLandmarks(canvas,resizedDetections)
-        //faceapi.draw.drawFaceExpressions(canvas,resizedDetections)
+        faceapi.draw.drawFaceLandmarks(canvas,resizedDetections)
+        faceapi.draw.drawFaceExpressions(canvas,resizedDetections)
     },300)
 })
