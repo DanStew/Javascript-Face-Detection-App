@@ -43,6 +43,7 @@ video.addEventListener("play", () => {
 
     //Function to make the code here run multiple times
     //Function needs to be async as faceapi is an asyncronis function (Spelt Wrong)
+    // The async part means that the function has to wait for the await line in the function
     setInterval(async () => {
         //Parameters here are what video you want to use, and what you are using to detect the faces
         //Including all of the different detection algorithms that you want to include
